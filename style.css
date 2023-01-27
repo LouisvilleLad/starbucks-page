@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left-nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 55px;
+    justify-content: space-around;
+    word-spacing: 2rem;
+}
+
+.right-btns{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
