@@ -2,10 +2,13 @@
     margin: 0%;
     padding: 0%;
 }
-.navbar{
+.nav-bar{
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding: 2rem;
+    height: 20px;
+    background-color: white;
 }
 
 .left-nav{
@@ -14,17 +17,27 @@
     flex-direction: row;
     padding-right: 55px;
     justify-content: space-around;
-    word-spacing: 2rem;
+    
 }
 
-.right-btns{
+.left-btns{
     display: flex;
     align-items: center;
     flex-direction: row;
     list-style: none;
+    border-radius: 20px;
+    padding-left: 2rem;
 }
 
 img{
     height: 50px;
     width: 50px;
+}
+
+.right-nav{
+    padding-left: 20rem;
+}
+
+#menu , #rewards , #gift-cards{
+    margin: 2rem;
 }
