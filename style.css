@@ -34,7 +34,9 @@ img{
 
 .right-nav{
     padding-left: 10rem;
-    word-spacing: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 #menu , #rewards , #gift-cards{
