@@ -3,9 +3,7 @@
     padding: 0%;
 }
 .nav-bar{
-    display: flex;
     align-items: center;
-    flex-direction: row;
     padding: 2rem;
     height: 50px;
     background-color: white;
@@ -67,3 +65,22 @@ img{
     background-color: white;
     font-size: 17px;
   }
+
+
+.nav-bar2{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: fill;
+   background-color: lightgray;
+   position: relative;
+   justify-content: space-around ;
+   padding-right: 10rem;
+}
+
+#btn-1{
+    background-color: lightgray;
+    color: black;
+    border: none;
+    
+}
